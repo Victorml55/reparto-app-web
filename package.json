@@ -1,0 +1,8 @@
+{
+  "name": "reparto-app",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "api:dev": "npm run start:dev -w apps/api"
+  }
+}
